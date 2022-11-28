@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 const carRoutes = require("./routes/cars");
@@ -7,8 +8,9 @@ const app = express();
 const port = process.env.PORT || 9000;
 
 //middleware
+app.use(cors())
 app.use(express.json());
-app.use('/api',carRoutes);
+app.use('/api', carRoutes);
 
 
 //routes
