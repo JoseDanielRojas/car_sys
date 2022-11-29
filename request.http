@@ -3,5 +3,18 @@ POST http://localhost:9000/api/car HTTP/1.1
 Content-Type: application/json
 
 {
-    
+   "carType":"1" ,
+    "transmition": "2" ,
+    "seatMaterial":"3" ,
+    "motor": "4",
+    "carType":"5" ,
+    "electricWindow": "6",
+    "electricMirrors":"7" ,
+    "rearProximitySensor":"8" ,
+    "frontProximitySensor":"9" ,
+    "reverseCamera":":10" ,
+    "controlPanel": "11",
+    "transmission":"12" ,
+    "carUpholstery":"13"  ,
+    "soundSystem": "14"  
 }
