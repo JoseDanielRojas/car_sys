@@ -6,11 +6,6 @@ const carSchema = mongoose.Schema({
         type:String,
         required: true
     },
-   
-    transmition:{
-        type:String,
-        required: true
-    },
     
     seatMaterial:{
         type:String,
@@ -21,34 +16,33 @@ const carSchema = mongoose.Schema({
         type:String,
         required: true
     },   
-    carType:{
-        type:String,
-        required: true
-    },
-    
     
     electricWindow:{
-        type:String,
+        type:boolean,
         required: true
     },
 
     electricMirrors:{
-        type:String,
+        type:Boolean,
         required: true
     },
     
     rearProximitySensor:{
-        type:String,
+        type:Boolean,
         required: true
     },
 
     frontProximitySensor:{
-        type:String,
+        type:Boolean,
         required: true
     },
     
+    sideProximitySensor:{
+        type:Boolean,
+        required: true
+    },
     reverseCamera:{
-        type:String,
+        type:Boolean,
         required: true
     },
     controlPanel:{
