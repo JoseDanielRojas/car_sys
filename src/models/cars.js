@@ -6,7 +6,11 @@ const carSchema = mongoose.Schema({
         type:String,
         required: true
     },
-    
+
+    transmissionWheels:{
+        type:String,
+        required: true
+    },
     seatMaterial:{
         type:String,
         required: true
@@ -18,7 +22,7 @@ const carSchema = mongoose.Schema({
     },   
     
     electricWindow:{
-        type:boolean,
+        type:Boolean,
         required: true
     },
 

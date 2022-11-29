@@ -18,7 +18,7 @@ const factorySchema = mongoose.Schema({
     },   
     
     contactNumber:{
-        type:boolean,
+        type:Boolean,
         required: true
     },
 
@@ -39,4 +39,4 @@ const factorySchema = mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('Factory', carSchema);
+module.exports = mongoose.model('Factory', factorySchema);
