@@ -2,6 +2,14 @@ const mongoose = require("mongoose");
 
 const carSchema = mongoose.Schema({
     
+    _id:{
+        type:mongoose.ObjectId,
+        required: true
+    },
+    name:{
+        type:String,
+        required: true
+    },
     carType:{
         type:String,
         required: true

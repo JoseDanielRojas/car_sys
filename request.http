@@ -18,3 +18,5 @@ Content-Type: application/json
     "carUpholstery":"13"  ,
     "soundSystem": "14"  
 }
+###
+GET http://localhost:9000/api/designs HTTP/1.1
